@@ -1,8 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-long long dp[1003][55];
-long long prefiks[1005];
+const int MAXN = 100005;
+
+long long dp[MAXN+5][55];
+long long prefiks[MAXN+5];
 int n, m;
 
 long long query(int a,int b){
