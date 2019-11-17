@@ -33,11 +33,16 @@ class TestSpec : public BaseTestSpec<ProblemSpec>{
         void TestCases(){
             CASE(N = 5, K = 3);
             CASE(N = 7, K = 4);
+            CASE(N = 94, K = 47);
+            CASE(N = 98280, K = 84);
             for (int i = 0; i < 10; ++i){
                 CASE(N = rnd.nextInt(1, 2000), K = rnd.nextInt(0, N-1));
             }
-            for (int i = 0; i < 15; ++i){
-                CASE(N = rnd.nextInt(2001, MAXN), K = rnd.nextInt(0, N-1));
+            for (int i = 0; i < 10; ++i){
+                CASE(N = rnd.nextInt(2001, MAXN), K = rnd.nextInt(0,50));
+            }
+            for (int i = 0; i < 5; ++i){
+                CASE(N = rnd.nextInt(10000, MAXN), K = rnd.nextInt(0, 1));
             }
         }
 };
