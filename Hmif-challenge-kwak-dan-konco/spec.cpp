@@ -16,14 +16,14 @@ class ProblemSpec : public BaseProblemSpec{
         LINE(B % SIZE(N));
         LINE(C % SIZE(N));
     }
-
+    
     void OutputFormat(){
         LINE(ans);
     }
 
     void GradingConfig(){
         TimeLimit(1);
-        MemoryLimit(128);
+        MemoryLimit(64);
     }
 
     void Constraints(){
