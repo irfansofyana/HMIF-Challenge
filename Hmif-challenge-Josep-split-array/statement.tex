@@ -42,7 +42,7 @@
     \begin{tabular}{ | c c | }
         \hline
         Batas Waktu  & 1s \\    % jangan lupa ganti time limit
-        Batas Memori & 512MB \\  % jangan lupa ganti memory limit
+        Batas Memori & 64MB \\  % jangan lupa ganti memory limit
         \hline
     \end{tabular}
 \end{center}
@@ -54,13 +54,14 @@
 % Contoh membuat persamaan:
 
 % \[ x_{n+1} = x_{n} - \frac{f(x_{n})}{f'(x_{n})} \]
-Kwak telah menyelesaikan pendidikan SMA! Kwak yang sejak SMA sudah hobi dan jago pemrograman ingin melanjutkan hobinya dalam pemrograman tersebut. Oleh karena itu, Kwak memutuskan untuk mengikuti perlombaan ICPC. Perlombaan ini adalah salah satu perlombaan pemrograman yang paling bergengsi untuk mahasiswa.
-Berbeda dengan OSN yang pernah diikutinya, ICPC adalah lomba pemrograman untuk tim. Satu buah tim yang mengikuti ICPC terdiri dari 3 orang mahasiswa yang berasal dari Universitas yang sama. Sungguh beruntung nasibnya Kwak. Dua orang teman baiknya yang juga jago pemrograman, yaitu Kwik dan Kwek sekarang menuntut ilmu di kampus yang sama dengan Kwak. Oleh karena itu, akhirnya mereka membentuk tim untuk ICPC!
-ICPC adalah lomba pemrograman yang jauh lebih sulit dibandingkan OSN. Karena sebab itulah, mereka bertiga sering sekali melakukan latihan.
+Josep yang merupakan ketua penyelenggara HMIF Challenge diberikan tantangan
+terlebih dahulu sebelum melaksanan acara tersebut. Tantangannya bisa dibilang tidak mudah. Tantangannya adalah sebagai berikut. 
+Josep diberikan sebuah array yang berisi $N$ bilangan bulat positif. Josep juga diberikan bilangan bulat positif $M$. Lalu Josep diminta untuk memecah
+array tersebut menjadi $M$ bagian subarray yang kontigu. Setiap subarray akan dihitung jumlahnya, lalu dari $M$ subarray tersebut, Josep akan mencari nilai
+maksimalnya dan menyebut nilai itu sebagai $MAX$. Nah, Tantangannya adalah tentukan nilai $MAX$ terkecil yang mungkin!
 
-Pada suatu hari, mereka bertiga berlatih mengerjakan $N$ soal untuk persiapan ICPC yang semakin dekat. Soal-soal ini diberi nomor dari 1 sampai $N$. Masing-masing dari mereka bertiga membaca soal satu per satu, lalu memberikan tingkat kesulitan relatif menurut pandangan mereka masing-masing untuk setiap soal. Supaya tidak terlalu ribet, mereka sepakat untuk memberikan kesulitan dengan bilangan 1 sampai 5, semakin besar angkanya maka soal tersebut makin susah.
-Kwak yang bisa dibilang ketua kelompok, ingin membagi  soal ini menjadi 3 bagian dimana tiap bagian tidak kosong dan merupakan soal-soal yang nomornya berurutan. Setiap soal harus termasuk ke tepat 1 bagian diantara 3 bagian tersebut. Setelah soal-soal tersebut dibagi menjadi 3 bagian, maka setiap orang yang mendapatkan bagiannya akan menghitung tingkat kesulitannya masing-masing dalam latihan,tingkat kesulitan ini senilai dengan penjumlahan kesulitan soal-soal yang akan dikerjakannya. Penjumlahan kesulitan dari Kwak, Kwik, dan Kwek akan menjadi kesulitan tim untuk mengerjakan latihan ini.
-Kwak, Kwik, dan Kwek memang ahli dalam pemrograman. Tetapi mereka bertiga juga manusia yang ingin mendapatkan kemudahan. Bantulah Kwak dan temannya untuk menemukan nilai kesulitan tim terkecil tersebut.
+Karena Josep ketua penyelenggara HMIF Challenge, tidak mungkin Josep bisa menyelesaikan pekerjaan itu sendirian. Ia pun meminta Anda yang mengikuti lomba CP HMIF Challenge
+untuk membantunya. Bisakah Anda?
 
 % \begin{enumerate}
 %     \setlength\itemsep{0pt}
@@ -86,46 +87,28 @@ Kwak, Kwik, dan Kwek memang ahli dalam pemrograman. Tetapi mereka bertiga juga m
 % Tiap kasus uji diawali dengan bilangan $N$ ($1 \leq N \leq 100.000$).
 % $N$ baris berikutnya terdiri dari 3 bilangan, dengan baris ke-$i$ menyatakan bilangan $A_i$, $B_i$, dan $C_i$.
 
-Baris pertama berisi bilangan bulat $N$, yang menyatakan banyaknya soal yang akan dikerjakan oleh Kwak, Kwik dan Kwek.
-Tiga Baris berikutnya masing-masing berisi  buah bilangan, yaitu kesulitan dari soal nomor 1 sampai $N$ menurut Kwak, Kwik, dan Kwek berturut-turut.
+Baris pertama berisi bilangan bulat $N$, yang menyatakan banyaknya bilangan pada array, lalu bilangan bulat $M$.
+Baris berikutnya terdiri dari $N$ buah bilangan bulat yang merupakan array yang diberikan pada Josep.
 
 \subsection*{Format Keluaran}
-Sebuah baris berisi bilangan yang merupakan nilai kesulitan tim terkecil yang mungkin bagi Kwak, Kwik, dan Kwek.
+Sebuah baris berisi bilangan $MAX$ terkecil yang mungkin.
 \\
 
 \begin{multicols}{2}
 \subsection*{Contoh Masukan 1}
 \begin{lstlisting}
-3
-1 3 3
-1 1 1
-1 2 3
+4 2
+1 2 3 4
 \end{lstlisting}
 \columnbreak
 \subsection*{Contoh Keluaran 1}
 \begin{lstlisting}
-4
+6
 \end{lstlisting}
 \vfill
 \null
 \end{multicols}
 
-\begin{multicols}{2}
-\subsection*{Contoh Masukan 2}
-\begin{lstlisting}
-7
-3 3 4 1 3 4 4
-4 2 5 1 5 5 4
-5 5 1 3 4 4 4
-\end{lstlisting}
-\columnbreak
-\subsection*{Contoh Keluaran 2}
-\begin{lstlisting}
-19
-\end{lstlisting}
-\vfill
-\null
-\end{multicols}
 
 % \subsection*{Penjelasan}
 % Jika dibutuhkan, tambahkan penjelasan di sini

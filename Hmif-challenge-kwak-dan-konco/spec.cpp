@@ -66,6 +66,7 @@ class TestSpec : public BaseTestSpec<ProblemSpec>{
             randomArrayMaks(N, A),
             randomArrayMaks(N, B),
             randomArrayMaks(N, C));
+
             for (int i = 0; i < 9; i++){
                 CASE(N = rnd.nextInt(3, 100),
                 randomArray(N, A),
@@ -77,7 +78,8 @@ class TestSpec : public BaseTestSpec<ProblemSpec>{
             randomArrayMaks(N, A),
             randomArrayMaks(N, B),
             randomArrayMaks(N, C));
-            for (int i = 0; i < 500; i++){
+
+            for (int i = 0; i < 10; i++){
                 CASE(N = rnd.nextInt(3, 2000),
                 randomArray(N, A),
                 randomArray(N, B), 
@@ -89,7 +91,7 @@ class TestSpec : public BaseTestSpec<ProblemSpec>{
             randomArrayMaks(N, B),
             randomArrayMaks(N, C));
 
-            for (int i = 0; i < 19; i++){
+            for (int i = 0; i < 20; i++){
                 CASE(N = rnd.nextInt(3, MAXN),
                 randomArray(N, A),
                 randomArray(N, B), 

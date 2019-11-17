@@ -4,14 +4,13 @@ using namespace std;
 
 typedef long long LL;
 
-const int MAXN = 100005;
+const int MAXN = 10005;
 const int MAXB = 1e9;
 
 class ProblemSpec : public BaseProblemSpec{
     protected:
         int N, M;
-        vector<vector<LL> > dp;
-        vector<LL> arr;
+        vector<int> arr;
         LL ans;
     
     void InputFormat(){
@@ -46,8 +45,34 @@ class ProblemSpec : public BaseProblemSpec{
 class TestSpec : public BaseTestSpec<ProblemSpec>{
     protected:
         void TestCases(){
-
+            CASE(
+                N = 5,
+                M = 2,
+                arr = {7, 2, 5, 10, 8});
+            for (int i = 0; i < 10; ++i){
+                CASE(
+                    N = rnd.nextInt(1, 2000),
+                    M = rnd.nextInt(1, min(N, 50)),
+                    randomArray(N, arr));
+            }
+            CASE(
+                N = MAXN,
+                M = 50,
+                randomArray(N, arr)   
+            );
+            for (int i = 0; i < 15; ++i){
+                CASE(
+                    N = rnd.nextInt(1, MAXN),
+                    M = rnd.nextInt(1, min(N, 50)),
+                    randomArray(N, arr)
+                );
+            }
         }
     private: 
-
+        void randomArray(int N, vector<int> & a){
+            a.clear();
+            for (int i = 0; i < N; i++){
+                a.push_back(rnd.nextInt(1, MAXB));
+            }
+        }
 };

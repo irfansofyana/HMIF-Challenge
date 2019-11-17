@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-const int MAXN = 100005;
+const int MAXN = 10005;
 
 long long dp[MAXN+5][55];
 long long prefiks[MAXN+5];
