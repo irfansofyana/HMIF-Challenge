@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1574158589 "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jalan-tol/statement.tex" "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jalan-tol/statement.pdf" "statement" 1574158601
+["pdflatex"] 1574158835 "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jalan-tol/statement.tex" "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jalan-tol/statement.pdf" "statement" 1574158836
   "/etc/texmf/web2c/texmf.cnf" 1550936616 1101 af7716885e081ab43982cab7b4672c1a ""
-  "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jalan-tol/statement.aux" 1574158590 662 b2b94621371df8d9296b8bf5bec1b851 ""
-  "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jalan-tol/statement.tex" 1574158601 4187 33cbcb724d675c610ca523d3e17c8855 ""
+  "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jalan-tol/statement.aux" 1574158836 662 b2b94621371df8d9296b8bf5bec1b851 ""
+  "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jalan-tol/statement.tex" 1574158835 4179 5caa5b9797e3d661192e4375d04b603e ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -63,13 +63,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1550936651 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1550936689 3853498 28ff9a283bac595b4a91caf3cd4ea15f ""
-  "statement.aux" 1574158590 662 b2b94621371df8d9296b8bf5bec1b851 ""
-  "statement.out" 1574158589 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "statement.tex" 1574158601 4187 33cbcb724d675c610ca523d3e17c8855 ""
+  "statement.aux" 1574158836 662 b2b94621371df8d9296b8bf5bec1b851 ""
+  "statement.out" 1574158836 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "statement.tex" 1574158835 4179 5caa5b9797e3d661192e4375d04b603e ""
   (generated)
-  "statement.pdf"
+  "statement.log"
+  "statement.aux"
   "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jalan-tol/statement.log"
   "statement.out"
   "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jalan-tol/statement.pdf"
-  "statement.aux"
-  "statement.log"
+  "statement.pdf"
