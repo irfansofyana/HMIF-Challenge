@@ -4,17 +4,17 @@ using namespace std;
 
 typedef long long LL;
 
-const int MAXN = 10005;
-const int MAXB = 1e9;
+const int MAXN = 500005;
+const int MAXB = 1e6;
 
 class ProblemSpec : public BaseProblemSpec{
     protected:
-        int N, M;
+        int N;
         vector<int> arr;
         LL ans;
     
     void InputFormat(){
-        LINE(N, M);
+        LINE(N);
         LINE(arr % SIZE(N));
     }
 
@@ -29,7 +29,6 @@ class ProblemSpec : public BaseProblemSpec{
 
     void Constraints(){
         CONS(1 <= N && N <= MAXN);
-        CONS(1 <= M && M <= min(N, 50));
         CONS(eachElementBetween(arr, 1, MAXB));
     }
 
@@ -45,26 +44,37 @@ class ProblemSpec : public BaseProblemSpec{
 class TestSpec : public BaseTestSpec<ProblemSpec>{
     protected:
         void TestCases(){
-            CASE(
-                N = 5,
-                M = 2,
-                arr = {7, 2, 5, 10, 8});
+            for (int i = 0; i < 4; ++i){
+                CASE(
+                    N = rnd.nextInt(1, 1*MAXN/5),
+                    randomArrayRange(N, arr, 1, 1*MAXB/5);
+                );
+            }
+            for (int i = 0; i < 4; ++i){
+                CASE(
+                    N = rnd.nextInt(1*MAXN/5+1, 2*MAXN/5),
+                    randomArrayRange(N, arr, 1*MAXB/5+1, 2*MAXB/5)
+                );
+            }
+
+            for (int i = 0; i < 5; ++i){
+                CASE(
+                    N = rnd.nextInt(2*MAXN/5+1, 3*MAXN/5),
+                    randomArrayRange(N, arr, 2*MAXB/5+1, 3*MAXB/5)
+                );
+            }
+
+            for (int i = 0; i < 7; ++i){
+                CASE(
+                    N = rnd.nextInt(3*MAXN/5+1, 4*MAXN/5),
+                    randomArrayRange(N, arr, 3*MAXB/5+1, 4*MAXB/5)
+                );
+            }
+
             for (int i = 0; i < 10; ++i){
                 CASE(
-                    N = rnd.nextInt(1, 2000),
-                    M = rnd.nextInt(1, min(N, 50)),
-                    randomArray(N, arr));
-            }
-            CASE(
-                N = MAXN,
-                M = 50,
-                randomArray(N, arr)   
-            );
-            for (int i = 0; i < 15; ++i){
-                CASE(
-                    N = rnd.nextInt(1, MAXN),
-                    M = rnd.nextInt(1, min(N, 50)),
-                    randomArray(N, arr)
+                    N = rnd.nextInt(4*MAXN/5+1, 5*MAXN/5),
+                    randomArrayRange(N, arr, 4*MAXB/5+1, 5*MAXB/5)
                 );
             }
         }
@@ -73,6 +83,12 @@ class TestSpec : public BaseTestSpec<ProblemSpec>{
             a.clear();
             for (int i = 0; i < N; i++){
                 a.push_back(rnd.nextInt(1, MAXB));
+            }
+        }
+        void randomArrayRange(int N, vector<int> & a, int lo, int hi){
+            a.clear();
+            for (int i = 0; i < N; i++){
+                a.push_back(rnd.nextInt(lo, hi));
             }
         }
 };
