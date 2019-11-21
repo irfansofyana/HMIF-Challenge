@@ -26,7 +26,7 @@ using namespace std;
 #define piiii pair<pii,pii>
 #define psi pair<string,int>
 #define endl "\n"
-const int MAX = 4e2+5;
+const int MAX = 455;
 const ll MAX2 = 11;
 const ll MOD = 1000000007;
 const ll INF = 2e18;
@@ -34,7 +34,7 @@ const int dr[]={1,0,-1,0,1,1,-1,-1,0};
 const int dc[]={0,1,0,-1,1,-1,1,-1,0};
 const double pi = acos(-1);
 const double EPS = 1e-9;
-const int block = 450;
+const int block = 455;
 
 ll n,x[MAX],ans;
 bool dp[MAX][MAX],vis[MAX][MAX];

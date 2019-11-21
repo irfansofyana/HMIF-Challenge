@@ -4,7 +4,7 @@ using namespace std;
 
 typedef long long LL;
 
-const int MAXN = 400;
+const int MAXN = 450;
 const int MAXB = 1e9;
 
 class ProblemSpec : public BaseProblemSpec{
@@ -46,30 +46,30 @@ class TestSpec : public BaseTestSpec<ProblemSpec>{
         void TestCases(){
             for (int i = 0; i < 4; ++i){
                 CASE(
-                    N = rnd.nextInt(1, 100),
+                    N = rnd.nextInt(1, 1*MAXN/4),
                     randomArrayRange(arr, N, 1, 10000));
             }
             for (int i = 0; i < 4; ++i){
                 CASE(
-                    N = rnd.nextInt(101, 200),
+                    N = rnd.nextInt(1*MAXN/4+1, 2*MAXN/4),
                     randomArrayRange(arr, N, 10001, 1000000); 
                 );
             }
             for (int i = 0; i < 4; ++i){
                 CASE(
-                    N = rnd.nextInt(201, 300),
+                    N = rnd.nextInt(2*MAXN/4 + 1, 3*MAXN/4),
                     randomArrayRange(arr, N, 1000001, 1000000000); 
                 );
             }
             for (int i = 0; i < 4; ++i){
                 CASE(
-                    N = rnd.nextInt(301, 400),
+                    N = rnd.nextInt(3*MAXN/4+1, MAXN),
                     randomArrayRange(arr, N, 1, 1000000000); 
                 );
             }
             for (int i = 0; i < 4; ++i){
                 CASE(
-                    N = rnd.nextInt(1, 400),
+                    N = rnd.nextInt(1, MAXN),
                     randomArrayRange(arr, N, 1, 1000000000); 
                 );
             }
