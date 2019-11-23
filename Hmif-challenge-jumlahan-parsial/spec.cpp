@@ -63,7 +63,7 @@ class TestSpec : public BaseTestSpec <ProblemSpec>{
                 );
             }
 
-            for (int i = 0; i < 6; ++i){
+            for (int i = 0; i < 10; ++i){
                 CASE(
                     N = rnd.nextInt(2*MAXN/4+1, 3*MAXN/4+1),
                     K = rnd.nextInt(2*MAXK/4+1, 3*MAXK/4),
@@ -71,7 +71,7 @@ class TestSpec : public BaseTestSpec <ProblemSpec>{
                 );
             }
 
-            for (int i = 0; i < 8; ++i){
+            for (int i = 0; i < 10; ++i){
                 CASE(
                     N = rnd.nextInt(3*MAXN/4+1, 4*MAXN/4),
                     K = rnd.nextInt(3*MAXK/4+1, 4*MAXK/4),

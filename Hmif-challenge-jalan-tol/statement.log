@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.2.23)  19 NOV 2019 17:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.2.23)  23 NOV 2019 02:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jalan-tol/statement.tex
-(/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jalan-tol/statement.tex
+**/home/irfansofyana/Downloads/HMIF-Challenge/Hmif-challenge-jalan-tol/statement.tex
+(/home/irfansofyana/Downloads/HMIF-Challenge/Hmif-challenge-jalan-tol/statement.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -317,7 +317,7 @@ Package geometry Warning: Over-specification in `v'-direction.
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless on input line 17.
 
-(/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jalan-tol/statement.aux)
+No file statement.aux.
 \openout1 = `statement.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -334,7 +334,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -412,7 +411,6 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 37.
 LaTeX Info: Redefining \pageref on input line 37.
 LaTeX Info: Redefining \nameref on input line 37.
- (/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jalan-tol/statement.out) (/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jalan-tol/statement.out)
 \@outlinefile=\write3
 \openout3 = `statement.out'.
 
@@ -421,23 +419,30 @@ LaTeX Info: Redefining \nameref on input line 37.
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
- (/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jalan-tol/statement.aux)
+ (/home/irfansofyana/Downloads/HMIF-Challenge/Hmif-challenge-jalan-tol/statement.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
-Package rerunfilecheck Info: File `statement.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+Package rerunfilecheck Warning: File `statement.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `statement.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 7439 strings out of 493029
- 108745 string characters out of 6136234
- 235657 words of memory out of 5000000
+ 7433 strings out of 493029
+ 108305 string characters out of 6136234
+ 235553 words of memory out of 5000000
  10888 multiletter control sequences out of 15000+600000
  5992 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,11n,43p,429b,1009s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,11n,43p,433b,1009s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on /media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jalan-tol/statement.pdf (1 page, 67833 bytes).
+Output written on /home/irfansofyana/Downloads/HMIF-Challenge/Hmif-challenge-jalan-tol/statement.pdf (1 page, 67377 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream

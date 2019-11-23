@@ -1,6 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1574342069 "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jumlahan-parsial/statement.tex" "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jumlahan-parsial/statement.pdf" "statement" 1574342070
+["pdflatex"] 1574342069 "/home/irfansofyana/Downloads/HMIF-Challenge/Hmif-challenge-jumlahan-parsial/statement.tex" "/home/irfansofyana/Downloads/HMIF-Challenge/Hmif-challenge-jumlahan-parsial/statement.pdf" "statement" 1574454388
   "/etc/texmf/web2c/texmf.cnf" 1550936616 1101 af7716885e081ab43982cab7b4672c1a ""
+  "/home/irfansofyana/Downloads/HMIF-Challenge/Hmif-challenge-jumlahan-parsial/statement.tex" 1574454388 3736 46b673859ffce670279c655f79f2e007 ""
   "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jumlahan-parsial/statement.aux" 1574342069 662 b2b94621371df8d9296b8bf5bec1b851 ""
   "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jumlahan-parsial/statement.tex" 1574342068 3736 46b673859ffce670279c655f79f2e007 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -67,13 +68,15 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1550936651 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1550936689 3853498 28ff9a283bac595b4a91caf3cd4ea15f ""
-  "statement.aux" 1574342069 662 b2b94621371df8d9296b8bf5bec1b851 ""
-  "statement.out" 1574342069 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "statement.tex" 1574342068 3736 46b673859ffce670279c655f79f2e007 ""
+  "statement.aux" 1574433677 662 b2b94621371df8d9296b8bf5bec1b851 ""
+  "statement.out" 1574433677 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "statement.tex" 1574454388 3736 46b673859ffce670279c655f79f2e007 ""
   (generated)
-  "statement.pdf"
-  "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jumlahan-parsial/statement.pdf"
-  "statement.aux"
-  "statement.log"
   "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jumlahan-parsial/statement.log"
+  "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-jumlahan-parsial/statement.pdf"
   "statement.out"
+  "/home/irfansofyana/Downloads/HMIF-Challenge/Hmif-challenge-jumlahan-parsial/statement.log"
+  "statement.log"
+  "statement.pdf"
+  "/home/irfansofyana/Downloads/HMIF-Challenge/Hmif-challenge-jumlahan-parsial/statement.pdf"
+  "statement.aux"

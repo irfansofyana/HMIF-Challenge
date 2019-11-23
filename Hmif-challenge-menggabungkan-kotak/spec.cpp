@@ -49,19 +49,19 @@ class TestSpec : public BaseTestSpec<ProblemSpec>{
                     N = rnd.nextInt(1, 1*MAXN/4),
                     randomArrayRange(arr, N, 1, 10000));
             }
-            for (int i = 0; i < 4; ++i){
+            for (int i = 0; i < 8; ++i){
                 CASE(
                     N = rnd.nextInt(1*MAXN/4+1, 2*MAXN/4),
                     randomArrayRange(arr, N, 10001, 1000000); 
                 );
             }
-            for (int i = 0; i < 4; ++i){
+            for (int i = 0; i < 10; ++i){
                 CASE(
                     N = rnd.nextInt(2*MAXN/4 + 1, 3*MAXN/4),
                     randomArrayRange(arr, N, 1000001, 1000000000); 
                 );
             }
-            for (int i = 0; i < 4; ++i){
+            for (int i = 0; i < 10; ++i){
                 CASE(
                     N = rnd.nextInt(3*MAXN/4+1, MAXN),
                     randomArrayRange(arr, N, 1, 1000000000); 

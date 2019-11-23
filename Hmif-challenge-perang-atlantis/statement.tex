@@ -88,22 +88,42 @@ Untuk memikirkan strategi terbaik, Pak Josep butuh program yang memudahkan dia m
 % Baris pertama terdiri dari satu bilangan bulat positif $T$ ($1 \leq T \leq 100.000$), menyatakan banyaknya kasus uji.
 % Tiap kasus uji diawali dengan bilangan $N$ ($1 \leq N \leq 100.000$).
 % $N$ baris berikutnya terdiri dari 3 bilangan, dengan baris ke-$i$ menyatakan bilangan $A_i$, $B_i$, dan $C_i$.
-
-Format masukan terdiri dari satu baris, yaitu berisi bilangan bulat $N$ ($1 \leq N \leq 100000$) dan 
-$K$ ($0 \leq k < N $).
+Baris pertama berisi 3 bilangan bulat $N$, $M$, dan $C$, banyaknya kota di Atlantis, banyak jalan di kota atlantis dan banyaknya negara yang ikut berperang. 
+Baris selanjutnya berisi $N$ buah bilangan bulat $W_i$, yakni nomor negara yang menguasai kota ke-i 
+Baris selanjutnya berisi $N$ buah bilangan bulat $V_i$, yakni kekayaan kota ke-i
+$M$ baris berikutnya berisi 2 bilangan bulat $A_i$ dan $B_i$, yang menandakan terdapat jalan dari kota $A_i$ ke kota $B_i$
+Baris selanjutnya terdiri dari bilangan bulat $Q$, yaitu jumlah operasi yang dilakukan Pak Josep.
+$Q$ baris selanjutnya berisi operasi-operasi yang diberikan, yang berupa salah satu dari:
+\begin{itemize}
+    \item 1 X, operasi ini menanyakan kekayaan maksimum di area kekuasaan di kota $X$
+    \item 2 X Y, operasi ini mengubah kekayaan di kota X menjadi bernilai $Y$
+\end{itemize}
 
 \subsection*{Format Keluaran}
-Sebuah permutasi $P$ terkecil yang mungkin sehingga ia permutasi mutlak, atau -1 jika tidak ada yang merupakan permutasi mutlak.
+Untuk setiap operasi 1, keluarkan sebuah bilangan yang merupakan kekayaan maksimum di kota yang ditanyakan
 
 \begin{multicols}{2}
 \subsection*{Contoh Masukan 1}
 \begin{lstlisting}
-3 0
+5 4 2
+1 2 2 2 2
+1 2 3 4 5
+1 2
+2 3
+3 4
+4 5
+4
+1 1
+1 2
+2 3 6
+1 2
 \end{lstlisting}
 \columnbreak
 \subsection*{Contoh Keluaran 1}
 \begin{lstlisting}
-1 2 3
+1
+5
+6
 \end{lstlisting}
 \end{multicols}
 

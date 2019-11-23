@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1574327084 "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-menggabungkan-kotak/statement.tex" "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-menggabungkan-kotak/statement.pdf" "statement" 1574327084
+["pdflatex"] 1574455962 "/home/irfansofyana/Downloads/HMIF-Challenge/Hmif-challenge-menggabungkan-kotak/statement.tex" "/home/irfansofyana/Downloads/HMIF-Challenge/Hmif-challenge-menggabungkan-kotak/statement.pdf" "statement" 1574455962
   "/etc/texmf/web2c/texmf.cnf" 1550936616 1101 af7716885e081ab43982cab7b4672c1a ""
-  "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-menggabungkan-kotak/statement.aux" 1574327084 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-menggabungkan-kotak/statement.tex" 1574327082 5048 ed20ed3f44fae139be22db3a55538be8 ""
+  "/home/irfansofyana/Downloads/HMIF-Challenge/Hmif-challenge-menggabungkan-kotak/statement.aux" 1574455962 662 b2b94621371df8d9296b8bf5bec1b851 ""
+  "/home/irfansofyana/Downloads/HMIF-Challenge/Hmif-challenge-menggabungkan-kotak/statement.tex" 1574455961 5051 6c1a213dc71347d3fb0d4deb764ba65b ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -64,12 +64,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1550936651 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1550936689 3853498 28ff9a283bac595b4a91caf3cd4ea15f ""
-  "statement.aux" 0 -1 0 ""
-  "statement.tex" 1574327082 5048 ed20ed3f44fae139be22db3a55538be8 ""
+  "statement.aux" 1574455962 662 b2b94621371df8d9296b8bf5bec1b851 ""
+  "statement.out" 1574455962 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "statement.tex" 1574455961 5051 6c1a213dc71347d3fb0d4deb764ba65b ""
   (generated)
   "statement.pdf"
   "statement.log"
-  "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-menggabungkan-kotak/statement.pdf"
   "statement.aux"
-  "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-menggabungkan-kotak/statement.log"
+  "/home/irfansofyana/Downloads/HMIF-Challenge/Hmif-challenge-menggabungkan-kotak/statement.log"
   "statement.out"
+  "/home/irfansofyana/Downloads/HMIF-Challenge/Hmif-challenge-menggabungkan-kotak/statement.pdf"

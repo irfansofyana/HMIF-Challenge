@@ -1,6 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1574345330 "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-josep-dan-array/statement.tex" "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-josep-dan-array/statement.pdf" "statement" 1574345330
+["pdflatex"] 1574345330 "/home/irfansofyana/Downloads/HMIF-Challenge/Hmif-challenge-josep-dan-array/statement.tex" "/home/irfansofyana/Downloads/HMIF-Challenge/Hmif-challenge-josep-dan-array/statement.pdf" "statement" 1574454223
   "/etc/texmf/web2c/texmf.cnf" 1550936616 1101 af7716885e081ab43982cab7b4672c1a ""
+  "/home/irfansofyana/Downloads/HMIF-Challenge/Hmif-challenge-josep-dan-array/statement.tex" 1574454223 4134 beb7b6ebb8452cc714f4efde83195a20 ""
   "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-josep-dan-array/statement.aux" 1574345330 662 b2b94621371df8d9296b8bf5bec1b851 ""
   "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-josep-dan-array/statement.tex" 1574345329 4134 beb7b6ebb8452cc714f4efde83195a20 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -64,13 +65,15 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1550936651 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1550936689 3853498 28ff9a283bac595b4a91caf3cd4ea15f ""
-  "statement.aux" 1574345330 662 b2b94621371df8d9296b8bf5bec1b851 ""
-  "statement.out" 1574345330 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "statement.tex" 1574345329 4134 beb7b6ebb8452cc714f4efde83195a20 ""
+  "statement.aux" 1574433676 662 b2b94621371df8d9296b8bf5bec1b851 ""
+  "statement.out" 1574433676 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "statement.tex" 1574454223 4134 beb7b6ebb8452cc714f4efde83195a20 ""
   (generated)
+  "/home/irfansofyana/Downloads/HMIF-Challenge/Hmif-challenge-josep-dan-array/statement.log"
+  "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-josep-dan-array/statement.log"
+  "/home/irfansofyana/Downloads/HMIF-Challenge/Hmif-challenge-josep-dan-array/statement.pdf"
+  "statement.pdf"
   "statement.aux"
+  "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-josep-dan-array/statement.pdf"
   "statement.log"
   "statement.out"
-  "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-josep-dan-array/statement.log"
-  "/media/irfansofyana/DATA/HMIF-Challenge/Hmif-challenge-josep-dan-array/statement.pdf"
-  "statement.pdf"
